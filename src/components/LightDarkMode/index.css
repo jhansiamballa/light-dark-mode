@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-mode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.light-mode {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  color: #000000;
+  border: 2px solid #000000;
+  background-color: #ffffff;
+}
+
+.button {
+  height: 40px;
+  width: 120px;
+  border-radius: 8px;
+}
